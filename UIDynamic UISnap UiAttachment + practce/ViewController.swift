@@ -9,10 +9,21 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    // UIAttachment - anchor
+    // UISnap - снимок
+    
+    
+    var square = UIView()
+    var animator = UIDynamicAnimator()
+    var squareViewAnchor = UIView()
+    var anchor = UIView()
+    var attachment: UIAttachmentBehavior?
+    
 
     override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+   
     }
 
 
